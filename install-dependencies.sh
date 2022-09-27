@@ -13,6 +13,15 @@ source $HOME/.cargo/env && rustup default nightly && rustup update
 
 source ~/.profile
 
+# instal rust clo tools
+# source: https://medium.com/better-programming/5-cli-tools-made-with-rust-to-improve-already-popular-tools-506af07b6d54
+cargo install bat
+cargo install ripgrep
+cargo install du-dust # run using dust
+cargo install bottom # run using btm
+cargo install exa
+
+
 # install nushell
 cargo install nu --all-features
 
